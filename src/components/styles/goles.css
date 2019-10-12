@@ -1,0 +1,58 @@
+.gallery{
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.row{
+    margin-bottom: 0px !important;
+}
+
+.row .col{
+    padding: 0 5px !important;
+}
+
+.card img{
+    width: 70px;
+    height: 70px;
+}
+
+.card{
+    cursor: pointer;
+    display: inline-block;
+    width: 250px;
+    margin: 5px;
+}
+
+.card-content{
+	background: url(https://miseleccion.mx/assets/img/portada_partidos.jpg) !important;
+    background-position: top !important;
+}
+
+.season{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background: #1abd00;
+    padding: 2px;
+}
+
+@media only screen and (min-width: 993px) {
+    .card{
+        display: block !important;
+        width: auto !important;
+    } 
+
+    .gallery{
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    height: 500px !important;
+    width: auto !important;
+    }
+}
