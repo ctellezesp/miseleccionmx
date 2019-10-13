@@ -40,7 +40,7 @@ export default class EditarGoles extends Component {
           console.log(err);
         });
     
-        firebase.db.collection("teams").orderBy('team', 'asc').get()
+        firebase.db.collection("teams").orderBy('country', 'asc').get()
         .then(res => {
           console.log(res.docs[0].data());
           this.setState({
