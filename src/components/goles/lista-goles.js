@@ -33,6 +33,7 @@ export default class ListaGoles extends Component {
                         <tr>
                             <th>Local</th>
                             <th>Visitante</th>
+                            <th>Fecha</th>
                             <th>Titulo</th>
                             <th>Temporada</th>
                             <th>Editar</th>
@@ -44,6 +45,7 @@ export default class ListaGoles extends Component {
                           return (<tr key={index}>
                             <td><img src={item.data().home} /></td>
                             <td><img src={item.data().away} /></td>
+                            <td>{item.data().date}</td>
                             <td>{item.data().title}</td>
                             <td>{item.data().season}</td>
                             <td><Link to={`/editar-goles/${item.ref.id}`}><i className="material-icons play-icon">edit</i></Link></td>
