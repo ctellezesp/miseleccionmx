@@ -1,12 +1,7 @@
 {
   "name": "miseleccionmx",
   "version": "0.1.0",
-  "private": true,
-  "engines": {
-    "npm": "6.9.0",
-    "node": "10.16.2",
-    "yarn": "1.17.3"
-  }, 
+  "private": true, 
   "dependencies": {
     "firebase": "^7.2.0",
     "materialize-css": "^1.0.0-rc.2",

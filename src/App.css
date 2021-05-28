@@ -1,22 +1,24 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
+.green-mex {
+  background-color: #00493e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card .card-action {
+  padding: 8px 24px;
 }
 
-.App-link {
-  color: #09d3ac;
+frame, iframe, video {
+  border: none;
+  border-radius: 5px;
+}
+
+input, textarea {
+  color: white !important;
+}
+
+table, i {
+  color: white !important;
 }

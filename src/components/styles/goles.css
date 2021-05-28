@@ -4,7 +4,7 @@
     overflow-y: hidden;
     height: auto;
     width: 100%;
-    background-color: #fff;
+    background-color: transparent;
     margin: 0 auto;
     white-space: nowrap;
 }
@@ -25,13 +25,13 @@
 .card{
     cursor: pointer;
     display: inline-block;
-    width: 250px;
+    width: 300px;
     margin: 5px;
+    border-radius: 10px !important;
 }
 
 .card-content{
-	background: url(https://miseleccion.mx/assets/img/portada_partidos.jpg) !important;
-    background-position: top !important;
+	background: linear-gradient(45deg, #00493e, #0e945b);
 }
 
 .season{
@@ -39,20 +39,10 @@
     top: 0;
     right: 0;
     color: white;
-    background: #CA9A6B;
+    background: #bc9f58;
     padding: 2px;
 }
 
-@media only screen and (min-width: 993px) {
-    .card{
-        display: block !important;
-        width: auto !important;
-    } 
-
-    .gallery{
-    overflow-x: hidden !important;
-    overflow-y: scroll !important;
-    height: 500px !important;
-    width: auto !important;
-    }
+.mt-10 {
+    margin: 10px 0;
 }
